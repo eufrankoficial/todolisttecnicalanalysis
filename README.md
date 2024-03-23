@@ -1,12 +1,14 @@
-```markdown
+
 # Todo List Application
 
-## Stack
-  - **Inertiajs**: VueJs + Laravel
-  - **Sail/docker**
-  - **Mysql**
-  - **phpunit** (integration tests)
-  - **cypress** (integration test)
+```markdown
+   Stack
+  - Inertiajs: VueJs + Laravel
+  - Sail/docker
+  - Mysql
+  - phpunit (integration tests)
+  - cypress (integration test)
+```
 
 For a smaller project like this, I suggest using both the backend and frontend in the same application.
 I suggest using inertiajs which already brings an abstraction with frontend and backend in the same application, allowing you to choose
@@ -154,14 +156,16 @@ https://inertiajs.com
 The structure of our frontend can be built in a simpler and more intuitive way, but it meets our needs well.
 
 within our laravel resources folder:
+
+```
 - resources
   - js 
     - Pages
     - components
     - Layouts
+```
 
 Final Considerations
 - According to the proposed requirements, backend and frontend are well served with architectural solutions. Of course, with each new problem we seek to solve with a best practice or concept we add a layer of complexity
 to our code. Both parts of the system are important and I believe that with a layered architecture in the backend and a good frontend "framework" proposed with inertiajs
 we can develop the project efficiently and quickly.
-```
